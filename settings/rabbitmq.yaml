@@ -1,0 +1,7 @@
+name: RabbitMQ
+driverClass: io.openmessaging.benchmark.driver.rabbitmq.RabbitMqBenchmarkDriver
+
+# RabbitMq client specific configurations
+
+brokerAddress: 172.16.0.17 
+messagePersistence: false
